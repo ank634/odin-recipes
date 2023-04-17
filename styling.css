@@ -1,0 +1,16 @@
+html{background-color: rgba(0, 0, 0, .9); color: beige;}
+
+img{height: auto ; width: 400px;}
+
+.container{text-align: center;}
+
+.recipes{ text-align: center; list-style-type: none;}
+
+.recipe, .back-button{text-decoration: none; color: beige;}
+
+/*These styles are applied when either the anchor tags are hovered over OR they are being focused on(tabbing) 
+  with the key will focus things.
+*/
+.recipe:hover, .recipe:focus, .back-button:hover, .back-button:focus{
+    text-decoration: underline; color:rgb(179, 217, 255); outline: none;
+}
